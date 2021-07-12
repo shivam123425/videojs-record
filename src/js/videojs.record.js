@@ -807,11 +807,11 @@ class Record extends Plugin {
                 this.mediaElement.play();
 
                 // forward to listeners
-                this.player.trigger(Event.DEVICE_READY);
+                this.player.trigger(Event.DEVICE_READY, stream);
             });
         } else {
             // forward to listeners
-            this.player.trigger(Event.DEVICE_READY);
+            this.player.trigger(Event.DEVICE_READY, stream);
         }
     }
 
