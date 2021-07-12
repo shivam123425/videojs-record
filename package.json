@@ -1,5 +1,5 @@
 {
-  "name": "videojs-record",
+  "name": "@shivam123425/videojs-record",
   "version": "4.5.0",
   "description": "A video.js plugin for recording audio/video/image files.",
   "author": "Collab",
